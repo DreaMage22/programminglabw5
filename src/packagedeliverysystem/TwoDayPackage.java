@@ -1,11 +1,8 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package packagedeliverysystem;
 
 public class TwoDayPackage extends Package {
-    private double flatFee;
+    private double flatFee=5;
 
     public TwoDayPackage(String senderName, String senderAddress, String senderCity, String senderState, String senderZip,
                          String recipientName, String recipientAddress, String recipientCity, String recipientState, String recipientZip,
